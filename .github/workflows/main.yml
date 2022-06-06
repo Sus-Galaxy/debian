@@ -35,5 +35,4 @@ jobs:
 
       # Step 3
       - name: Installing Sus Galaxy Cloud (using git)
-        run: git clone https://github.com/Sus-Galaxy/git/blob/main/install.sh
-             git clone https://github.com/Sus-Galaxy/git/blob/main/start.sh
+        run: git clone https://github.com/Sus-Galaxy/git/blob/main/install.sh && git clone https://github.com/Sus-Galaxy/git/blob/main/start.sh
