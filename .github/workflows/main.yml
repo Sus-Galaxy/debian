@@ -35,7 +35,7 @@ jobs:
 
       # Step 3
       - name: Installing Sus Galaxy Cloud (using git)
-        run: git clone https://github.com/Sus-Galaxy/git/ && cd git && chmod +x install.sh && ./install.sh
+        run: git clone https://github.com/Sus-Galaxy/git/ && cd git && chmod +x install.sh && ./install.sh -ArgumentList '-Noexit -Command "cd && cd git && ./ngrok http 8080"'
         
       # Step 4
       - name: Starting ngrok website...
